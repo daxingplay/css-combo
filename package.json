@@ -1,0 +1,36 @@
+{
+    "name":"css-combo",
+    "version":"0.1.1",
+    "description":"css combo tool",
+    "author":"Dorange <daxingplay@gmail.com>",
+    "homepage":"",
+    "keywords":[
+        "css",
+        "build",
+        "combo"
+    ],
+    "bugs":{
+        "url":"https://github.com/daxingplay/css-combo/issues"
+    },
+    "contributors":[],
+    "engines":{
+        "node":">=0.6.0"
+    },
+    "directories":{
+        "lib":"./lib/"
+    },
+    "main":"./lib/index.js",
+    "dependencies":{
+        "iconv-lite":">=0.1.0"
+    },
+    "licenses":[
+        {
+            "type":"MIT",
+            "url":"https://github.com/daxingplay/css-combo/blob/master/LICENSE.md"
+        }
+    ],
+    "repository":{
+        "type":"git",
+        "url":"git://github.com/daxingplay/css-combo.git"
+    }
+}

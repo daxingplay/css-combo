@@ -6,7 +6,8 @@ lib-cov
 *.out
 *.pid
 *.gz
-
+*.iml
+.settings/
 pids
 logs
 results
