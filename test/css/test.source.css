@@ -1,3 +1,6 @@
+/*comment test*/
+/*@import "./mod/mod1.css";*/
 @import "./mod/mod1.css";
 @import "./mod/mod2.css";
+/*! this comment needs to be preserved. */
 @import url("http://assets.taobaocdn.com/tbsp/tbsp.source.css");

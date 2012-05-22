@@ -1,13 +1,9 @@
-﻿var EasyCombo = require('../lib/base').EasyCombo;
+﻿var CssCombo = require('../lib/index');
 
-EasyCombo.build({
-    base:'D:\\project\\tradeface\\assets\\4.0',
+CssCombo.build({
+    target:'css/test.source.css',
     debug: true,
-    outputBase:'D:\\project\\tradeface\\assets\\testbuild',
-    output:'tc/cart/cart.combine.css',
-    includes:[
-        'tc/cart/cart.css',
-        'tc/cart/order.css',
-        'tc/cart/item.css'
-    ]
+    inputEncoding:'gbk',
+    outputEncoding:'gbk',
+    output:'css/'
 });

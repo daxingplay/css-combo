@@ -18,6 +18,15 @@ css-combo¾ÍÊÇ½è¼øÁËÕâÖÖË¼Ïë£¬ÊµÏÖÁËcssÄ£¿é»¯¡£¼´ÔÚÈë¿ÚÎÄ¼şÖĞ@importÆäËûÄ£¿é£¬È»º
     * outputEncoding£º{String} Êä³öÎÄ¼ş±àÂë£¬¿ÉÑ¡£¬Ä¬ÈÏGBK
     * output£º{String} Êä³öÄ¿Â¼£¬¿ÉÒÔÊ¹ÓÃÏà¶ÔÂ·¾¶
     * exclude£º{Array} ºÚÃûµ¥ÕıÔòÊı×é£¬¿ÉÑ¡£¬Ä¬ÈÏ²»´¦Àí[/.combine.css/, /-min.css/, /.combo.css/]
+    * compress: {Boolean} ÊÇ·ñÑ¹Ëõ£¬Ä¬ÈÏÎªtrue
+    * debug: {Boolean} ÊÇ·ñ´òÓ¡ÈÕÖ¾
+
+## TODO
+
+    * Ôö¼ÓÄ¿Â¼´ò°üĞÎÊ½
+    * <del>ÏÈÈ¥µô×¢ÊÍÔÙ´ò°ü</del>
+    * Ôö¼Ó¶ÔÄ£¿é@charsetµÄ¼ì²â
+    * ±àÂë×ª»»£¬×îºóÑ¹Ëõ³Éascii
 
 ## License
 css-combo ×ñÊØ "MIT"£ºhttps://github.com/daxingplay/css-combo/blob/master/LICENSE.md Ğ­Òé
