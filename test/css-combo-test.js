@@ -3,7 +3,8 @@
 CssCombo.build({
     target:'css/test.source.css',
     debug: true,
-    inputEncoding:'gbk',
-    outputEncoding:'gbk',
-    output:'css/'
+    inputEncoding: 'gbk',
+    outputEncoding: 'gbk',
+    output:'css/',
+    compress: 0
 });
