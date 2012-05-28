@@ -24,7 +24,6 @@ css-combo¾ÍÊÇ½è¼øÁËÕâÖÖË¼Ïë£¬ÊµÏÖÁËcssÄ£¿é»¯¡£¼´ÔÚÈë¿ÚÎÄ¼þÖÐ@importÆäËûÄ£¿é£¬È»º
 ## TODO
 
     * Ôö¼ÓÄ¿Â¼´ò°üÐÎÊ½
-    * <del>ÏÈÈ¥µô×¢ÊÍÔÙ´ò°ü</del>
     * Ôö¼Ó¶ÔÄ£¿é@charsetµÄ¼ì²â
     * ±àÂë×ª»»£¬×îºóÑ¹Ëõ³Éascii
 
