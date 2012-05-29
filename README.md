@@ -14,11 +14,11 @@ css-combo¾ÍÊÇ½è¼øÁËÕâÖÖË¼Ïë£¬ÊµÏÖÁËcssÄ£¿é»¯¡£¼´ÔÚÈë¿ÚÎÄ¼şÖĞ@importÆäËûÄ£¿é£¬È»º
 * cfg:{Object} ²ÎÊı
 
     * target£º{String} Èë¿ÚÎÄ¼ş
-    * inputEncoding£º{String} ÊäÈëÎÄ¼ş±àÂë£¬¿ÉÑ¡£¬Ä¬ÈÏGBK
-    * outputEncoding£º{String} Êä³öÎÄ¼ş±àÂë£¬¿ÉÑ¡£¬Ä¬ÈÏGBK
+    * inputEncoding£º{String} ÊäÈëÎÄ¼ş±àÂë£¬¿ÉÑ¡£¬Ä¬ÈÏ¼ì²âÈë¿ÚÎÄ¼şÖĞµÄ@charsetÉèÖÃ¡£Èç¹ûÈë¿ÚÎÄ¼şÃ»ÓĞÉèÖÃ@charset£¬ÄÇÃ´×îºÃÉèÖÃ±¾Ñ¡Ïî
+    * outputEncoding£º{String} Êä³öÎÄ¼ş±àÂë£¬¿ÉÑ¡£¬Ä¬ÈÏUTF-8£¬Èç¹ûÑ¡ÔñÁËÑ¹Ëõ£¬×îºó»á´¦Àí³Éascii
     * output£º{String} Êä³öÄ¿Â¼£¬¿ÉÒÔÊ¹ÓÃÏà¶ÔÂ·¾¶
     * exclude£º{Array} ºÚÃûµ¥ÕıÔòÊı×é£¬¿ÉÑ¡£¬Ä¬ÈÏ²»´¦Àí[/.combine.css/, /-min.css/, /.combo.css/]
-    * compress: {Boolean} ÊÇ·ñÑ¹Ëõ£¬Ä¬ÈÏÎªtrue
+    * compress: {Boolean} ÊÇ·ñÑ¹Ëõ£¬Ä¬ÈÏÎªtrue£¬´¦Àí¹æÔòÍ¬YUICompressor
     * debug: {Boolean} ÊÇ·ñ´òÓ¡ÈÕÖ¾
 
 ## TODO
