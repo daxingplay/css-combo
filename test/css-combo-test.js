@@ -2,7 +2,7 @@
 
 CssCombo.build({
     target:'css/test.source.css',
-    debug: true,
+    debug: false,
     inputEncoding: 'gbk',
     outputEncoding: 'gbk',
     output:'css/',
