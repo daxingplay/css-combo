@@ -2,9 +2,9 @@
 
 CssCombo.build({
     target:'css/test.source.css',
-    debug: false,
+    debug: true,
     inputEncoding: 'gbk',
     outputEncoding: 'gbk',
-    output:'css/',
+    output:'css/test.combo.css',
     compress: 0
 });

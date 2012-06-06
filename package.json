@@ -1,6 +1,6 @@
 {
     "name":"css-combo",
-    "version":"0.1.6",
+    "version":"0.1.7",
     "description":"css combo tool",
     "author":"Dorange <daxingplay@gmail.com>",
     "homepage":"",
@@ -22,8 +22,7 @@
     "main":"./lib/index.js",
     "dependencies":{
         "iconv-lite":">=0.1.0",
-        "native2ascii":">=0.0.5",
-        "jschardet":">=1.0.2"
+        "native2ascii":">=0.0.5"
     },
     "licenses":[
         {
