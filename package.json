@@ -21,8 +21,7 @@
     },
     "main":"./lib/index.js",
     "dependencies":{
-        "iconv-lite":">=0.1.0",
-        "native2ascii":">=0.0.5"
+        "iconv-lite":">=0.1.0"
     },
     "licenses":[
         {
