@@ -9,7 +9,7 @@ css-combo¾ÍÊÇ½è¼øÁËÕâÖÖË¼Ïë£¬ÊµÏÖÁËcssÄ£¿é»¯¡£¼´ÔÚÈë¿ÚÎÄ¼şÖĞ@importÆäËûÄ£¿é£¬È»º
 
 *API:*
 
-    CssCombo.build(cfg);
+    CssCombo.build(cfg, function(err){ callback(); });
 
 * cfg:{Object} ²ÎÊı
 
