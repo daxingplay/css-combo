@@ -3,6 +3,8 @@ combined files :
 
 ./mod/mod1.css
 ./mod/mod2.css
+./mod/mod3.css
+./mod/mod4.css
 http://assets.taobaocdn.com/tbsp/tbsp.source.css
 */
 
@@ -13,7 +15,7 @@ http://assets.taobaocdn.com/tbsp/tbsp.source.css
 /*comments*/
 body {
     background: #fff;
-    font-family: 'å®‹ä½“';
+    font-family: 'ËÎÌå';
 }
 
 
@@ -21,24 +23,35 @@ h1 {
     height: 100px;
 }
 
-/*! this comment needs to be preserved. */
-/*! @author ç´«è‹± */
 
+/**
+ * ¿ÕÄÚÈÝ£¬Ö»ÓÐ×¢ÊÍ
+ * @author: ×ÏÓ¢£¨daxingplay£©<daxingplay@gmail.com>
+ * @date: 12-7-16
+ */
+
+
+
+
+/*! this comment needs to be preserved. */
+/*! @author ×ÏÓ¢ */
+
+/*ucool filePath=http://10.249.196.92:80/tbsp/tbsp.source.css*/
 /*! Taobao Style Platform Copyright(c) 2008-2100, Taobao.com Inc. Some rights reserved. */
 
 /**
  * reset.css based on YUI
  *
  * Update Log:
- * 2009-05-18   yubo    ï¿½ï¿½htmlï¿½ï¿½Ä¬ï¿½Ï±ï¿½ï¿½ï¿½É«ï¿½Ó°ï¿½É«ï¿½Ä³ï¿½Í¸ï¿½ï¿½
- * 2009-03-26   yubo    ï¿½ï¿½reset.cssï¿½ï¿½base.cssï¿½Ï²ï¿½Îªreset.css
- * 2009-02-11   yubo    ï¿½ï¿½smallï¿½ï¿½ï¿½ï¿½Ê½Ò²resetï¿½ï¿½
+ * 2009-05-18   yubo    ½«htmlµÄÄ¬ÈÏ±³¾°É«´Ó°×É«¸Ä³ÉÍ¸Ã÷
+ * 2009-03-26   yubo    ½«reset.cssºÍbase.cssºÏ²¢Îªreset.css
+ * 2009-02-11   yubo    ½«smallµÄÑùÊ½Ò²resetµô
  * 2009-02-10   yubo    border: 0 -> border: none
- * 2008-12-23   yubo    margin: 0; padding: 0 ï¿½Ð¼ï¿½ï¿½ï¿½ button. ï¿½íµ¥Ôªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½button
+ * 2008-12-23   yubo    margin: 0; padding: 0 ÖÐ¼ÓÈë button. ±íµ¥ÔªËØÏà¹ØÑùÊ½ÖÐÒ²¼ÓÈëbutton
  * 2008-11-12	yubo	created initial version
  */
 
-body { font: 12px/1.5 Tahoma,Helvetica,Arial,'ï¿½ï¿½ï¿½ï¿½',sans-serif; }
+body { font: 12px/1.5 Tahoma,Helvetica,Arial,'ËÎÌå',sans-serif; }
 html, legend { color: #404040; background: #fff; }
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
@@ -102,8 +115,8 @@ pre, code, kbd, samp, tt{
 }
 
 /**
- * Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â£ï¿½smallï¿½ï¿½ï¿½ÖºÅ±ï¿½Ä¬ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½resetï¿½ï¿½ï¿½ï¿½Ä¨Æ½ï¿½ï¿½ï¿½ï¿½
- * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½Îª12pxÊ±ï¿½ï¿½ï¿½ï¿½smallÒ²12pxï¿½Ç³ï¿½ï¿½Ð±ï¿½Òªï¿½ï¿½Ð¡ï¿½ï¿½12pxï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öºï¿½ï¿½ï¿½Ê¶ï¿½ï¿½
+ * Ä¬ÈÏÇé¿öÏÂ£¬smallµÄ×ÖºÅ±ÈÄ¬ÈÏÐ¡£¬ÕâÀïresetµô£¬Ä¨Æ½²îÒì
+ * ¶ÔÓÚÖÐÎÄÄ¬ÈÏÎª12pxÊ±£¬ÈÃsmallÒ²12px·Ç³£ÓÐ±ØÒª¡£Ð¡ÓÚ12pxµÄÖÐÎÄ×ÖºÜÄÑÊ¶±ð
  */
 small { font-size: 100%; }
 
@@ -137,14 +150,14 @@ hr {
 /***********************************************
  * Misc Style
  ***********************************************/
-/* ï¿½Ã·ï¿½ieï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½Ò²ï¿½ï¿½Ê¾ï¿½ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¸ï¿½ï¿½ */
+/* ÈÃ·Çieä¯ÀÀÆ÷Ä¬ÈÏÒ²ÏÔÊ¾´¹Ö±¹ö¶¯Ìõ£¬·ÀÖ¹Òò¹ö¶¯ÌõÒýÆðµÄÉÁË¸µÈ */
 html {
-    /*min-height: 101%; ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½Ð§ï¿½ï¿½ */
+    /*min-height: 101%; Õâ¸ö·½·¨²»ºÃ£¬²»ÊÇÏëÒªµÄÐ§¹û */
 
-    overflow-y: scroll; /* ï¿½ï¿½operaï¿½Â»ï¿½Í¬Ê±ï¿½ï¿½ï¿½ï¿½Ë®Æ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½operaï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½Í¿ï¿½ï¿½Ôºï¿½ï¿½ï¿½ï¿½ï¿½ */
+    overflow-y: scroll; /* ÔÚoperaÏÂ»áÍ¬Ê±´¥·¢Ë®Æ½¹ö¶¯Ìõ£¬µ«¿¼ÂÇoperaµÄÓÃ»§Êý£¬Ò²¾Í¿ÉÒÔºöÂÔÁË */
 
-	/*overflow: -moz-scrollbars-vertical; ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½firefox
-    overflow-x: auto; ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Ð»á½«overflow-xï¿½Éµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	/*overflow: -moz-scrollbars-vertical; Õâ¸ö·½·¨Ö»Õë¶Ôfirefox
+    overflow-x: auto; ÉÏÃæÒ»ÐÐ»á½«overflow-x¸Éµô£¬Òò´ËÕâÀïÖØÉè»ØÀ´
     ref: http://developer.mozilla.org/en/docs/Mozilla_CSS_Extensions#overflow */
 }
 /*
@@ -155,9 +168,9 @@ Doc Link: http://lifesinger.org/blog/?p=448
 
 /**
  * Update Log:
- * 2009-05-18   yubo    ï¿½ï¿½ï¿½ï¿½Chromeï¿½ï¿½Safariï¿½Â£ï¿½20090211ï¿½ï¿½ï¿½ï¿½bugÊ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½bug. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½display: inline-block
- * 2009-02-11   yubo    ï¿½ï¿½ï¿½ï¿½Chromeï¿½ï¿½Safariï¿½ï¿½Ñ¡È¡ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôµï¿½bug
- * 2008-12-23   yubo    ï¿½ï¿½ï¿½ï¿½position: relativeï¿½ï¿½Ó°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * 2009-05-18   yubo    ÐÞÕýChromeºÍSafariÏÂ£¬20090211½â¾öbugÊ±£¬ÒýÈëµÄÁíÒ»¸öbug. ²»ÄÜÓÃdisplay: inline-block
+ * 2009-02-11   yubo    ½â¾öChromeºÍSafariÏÂÑ¡È¡ÎÄ×ÖÊ±£¬±³¾°ÇøÓò²»¶ÔµÄbug
+ * 2008-12-23   yubo    µ÷Õûposition: relativeµÄÓ°ÏìÇøÓò
  * 2008-12-18	yubo	margin: 0 auto; -> margin-left: auto; margin-right: auto;
  * 2008-11-02	yubo	created initial version
  */
@@ -167,7 +180,7 @@ Doc Link: http://lifesinger.org/blog/?p=448
  ***********************************************/
 #page, #page3 { width: 950px; margin-left: auto; margin-right: auto; } /* Golden width ^o^ */
 /* For liquid layout. You can override it with any favorite percent. */
-/*#page2 { width: 100%; } ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½Ä¬ï¿½Ï¾ï¿½ï¿½ï¿½100%. */
+/*#page2 { width: 100%; } ²»ÉèÖÃ£¬Ä¬ÈÏ¾ÍÊÇ100%. */
 #page3 { width: 750px; } /* 750 is still suitable for 'small, intro' page. */
 
 .col-main { float: left; width: 100%; }
@@ -353,24 +366,24 @@ Doc Link: http://lifesinger.org/blog/?p=448
 /***********************************************
  * Misc
  ***********************************************/
-/* bug fix: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ffï¿½ï¿½chromeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â£ï¿½ï¿½ï¿½ï¿½Ö²ï¿½ï¿½ï¿½ */
+/* bug fix: µ±Ö÷À¸Ã»ÓÐÄÚÈÝÊ±£¬ÔÚffºÍchromeµÈä¯ÀÀÆ÷ÏÂ£¬²¼¾Ö²»¶Ô */
 .col-main {
 	min-height: 1px;
 }
 
-/* bug fix: ï¿½ï¿½ï¿½ï¿½Chromeï¿½ï¿½Safariï¿½ï¿½Ñ¡È¡ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôµï¿½bug */
+/* bug fix: ½â¾öChromeºÍSafariÏÂÑ¡È¡ÎÄ×ÖÊ±£¬±³¾°ÇøÓò²»¶ÔµÄbug */
 body:first-of-type .main-wrap {
     position: relative;
 }
 
 /**
- * ï¿½î¿ªÊ¼ï¿½ï¿½position: relativeï¿½Ç¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.col-subï¿½ï¿½.col-extraï¿½Ïµï¿½
- * ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½position: relativeï¿½ï¿½Ê±ï¿½áµ¼ï¿½ï¿½ie6ï¿½Âµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
- * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¾ï¿½ï¿½ï¿½ie6ï¿½Âµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎªÃ»ï¿½ï¿½hasLayoutï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
- * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½Ç¿ï¿½Ñ¨ï¿½ï¿½ï¿½ç£¬ï¿½ï¿½Î´ï¿½ï¿½Ö¤
+ * ×î¿ªÊ¼£¬position: relativeÊÇ¼ÓÔÚËùÓÐ.col-subºÍ.col-extraÉÏµÄ
+ * µ±Ê±µ÷ÕûµÄÔ­ÒòÊÇposition: relativeÓÐÊ±»áµ¼ÖÂie6ÏÂµÄÐÔÄÜÎÊÌâ
+ * µ«ºóÀ´¾­¹ýÑÐ¾¿£¬ie6ÏÂµÄÐÔÄÜÎÊÌâÊµ¼ÊÉÏÊÇÒòÎªÃ»ÓÐhasLayoutÒýÆðµÄ
+ * ÆäËüÎÊÌâÔÝÊ±¶¼ÊÇ¿ÕÑ¨À´·ç£¬ÉÐÎ´¿¼Ö¤
  *
- * ï¿½ï¿½ï¿½É²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½Ç³ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡Ó°ï¿½ï¿½Ô­ï¿½ï¿½
- * ï¿½ï¿½ÎªÖ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªposition: relativeï¿½ï¿½Êµï¿½ï¿½
+ * ÒÀ¾É²ÉÓÃÏÂÃæµÄÐ´·¨£¬ÊÇ³öÓÚ×îÐ¡Ó°ÏìÔ­Àí
+ * ÒòÎªÖ»ÓÐÏÂÃæÕâÐ©²¼¾ÖÐèÒªposition: relativeÀ´ÊµÏÖ
  */
 .grid-c3c .col-extra, .grid-c3b .col-sub,
 .grid-c3-s5e7c .col-extra, .grid-c3-s5e7b .col-sub,
@@ -387,15 +400,15 @@ Copyright (c) 2008-2100, Taobao.com Inc. Some rights reserved.
 
 /**
  * Update Log:
- * 2009-02-12   yubo    1. ï¿½ï¿½.pic aï¿½ï¿½ï¿½ï¿½line-height, ï¿½ï¿½ï¿½ï¿½ieï¿½Â´ï¿½Ö±ï¿½ï¿½ï¿½Ð³ï¿½ï¿½ï¿½ï¿½ï¿½
-                        2. ï¿½ï¿½Ê¾ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½helpÐ¡Í¼ï¿½ï¿½
- * 2009-01-08   yubo    ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½Ê¾ï¿½ï¿½cssï¿½ï¿½ï¿½ï¿½ï¿½ï¿½24ï¿½Ä³ß´ç£¬ï¿½Ñ¾ï¿½Ò³ï¿½æ¼¶ï¿½ï¿½ï¿½ï¿½
- * 2009-01-06   yubo    1. ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ÄµÄ½ï¿½ï¿½é£¬ï¿½ï¿½ï¿½ï¿½boxï¿½ï¿½hackï¿½ï¿½ï¿½ï¿½È¨ï¿½Ø·Åµï¿½ï¿½ï¿½ï¿½ï¿½
-                        2. ï¿½ï¿½ï¿½ï¿½picï¿½ï¿½cssï¿½ï¿½display: table-cell ï¿½Åµï¿½ .pic a ï¿½ï¿½
- * 2008-12-21	yubo	1. ï¿½ï¿½ï¿½ï¿½boxï¿½ï¿½Ä¬ï¿½ï¿½Æ¤ï¿½ï¿½Îªskin-gray.
-                        2. ï¿½Å»ï¿½btnï¿½ï¿½Ï¸Î¢ï¿½ï¿½Ê½
-                        3. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½Ï¢ï¿½ï¿½Ê½
-                        4. ï¿½ï¿½ï¿½ï¿½floatrightï¿½ï¿½floatleft
+ * 2009-02-12   yubo    1. ¸ø.pic a¼ÓÉÏline-height, ±ÜÃâieÏÂ´¹Ö±¾ÓÖÐ³öÎÊÌâ
+                        2. ÌáÊ¾ÐÅÏ¢Ìí¼ÓhelpÐ¡Í¼±ê
+ * 2009-01-08   yubo    µ÷ÕûÐÅÏ¢ÌáÊ¾µÄcss£¬Ôö¼Ó24µÄ³ß´ç£¬ÒÑ¾­Ò³Ãæ¼¶·´À¡
+ * 2009-01-06   yubo    1. ¸ù¾ÝÔ²ÐÄµÄ½¨Òé£¬µ÷ÕûboxµÄhack£¬½«È¨ÖØ·Åµ½×îµÍ
+                        2. µ÷ÕûpicµÄcss£¬display: table-cell ·Åµ½ .pic a ÉÏ
+ * 2008-12-21	yubo	1. µ÷ÕûboxµÄÄ¬ÈÏÆ¤·ôÎªskin-gray.
+                        2. ÓÅ»¯btnµÄÏ¸Î¢ÑùÊ½
+                        3. Ìí¼ÓÌáÊ¾ÐÅÏ¢ÑùÊ½
+                        4. Ôö¼ÓfloatrightºÍfloatleft
  * 2008-12-18	yubo	add .invisible, .pic s300, .small-btn etc.
  * 2008-12-15   yubo    add box style
  * 2008-12-13	yubo	created initial version
@@ -585,7 +598,7 @@ Copyright (c) 2008-2100, Taobao.com Inc. Some rights reserved.
  * Pic
  ***********************************************/
 .pic a {
-    display: table-cell; /*ï¿½ï¿½IEï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¶ï¿½ï¿½ï¿½Ä´ï¿½Ö±ï¿½ï¿½ï¿½ÐµÄ·ï¿½ï¿½ï¿½*/
+    display: table-cell; /*·ÇIEµÄÖ÷Á÷ä¯ÀÀÆ÷Ê¶±ðµÄ´¹Ö±¾ÓÖÐµÄ·½·¨*/
     vertical-align: middle;
     text-align: center;
 }
@@ -753,8 +766,8 @@ button.small-long-btn:hover {
 .msg .ok { background-position: 3px -247px; border-color: #4dbf00; background-color: #f0ffe5; }
 .msg .notice { background-position: 5px -295px; border-color: #40b3ff; background-color: #e6f5ff; }
 .msg .question { background-position: 3px -347px; border-color: #bfbfbf; background-color: #f2f2f2; }
-.msg .small-help { background-position: 5px -1095px; border-color: #fff; background-color: #fff; } /* ï¿½ï¿½ï¿½ï¿½É«ï¿½Í±ß¿ï¿½Ä¬ï¿½Ï°ï¿½É« */
-.msg .help { background-position: 3px -1197px; border-color: #fff; background-color: #fff; } /* ï¿½ï¿½ï¿½ï¿½É«ï¿½Í±ß¿ï¿½Ä¬ï¿½Ï°ï¿½É« */
+.msg .small-help { background-position: 5px -1095px; border-color: #fff; background-color: #fff; } /* ±³¾°É«ºÍ±ß¿òÄ¬ÈÏ°×É« */
+.msg .help { background-position: 3px -1197px; border-color: #fff; background-color: #fff; } /* ±³¾°É«ºÍ±ß¿òÄ¬ÈÏ°×É« */
 
 
 .msg24 .error, .msg24 .attention, .msg24 .tips, .msg24 .ok, .msg24 .question {
@@ -817,7 +830,7 @@ button.small-long-btn:hover {
 
 
 /***************************
- * Flow Steps ï¿½ï¿½ï¿½Ì²ï¿½ï¿½ï¿½ï¿½ï¿½
+ * Flow Steps Á÷³Ì²½ÖèÌõ
  ***************************/
 .flow-steps {
     overflow: hidden; /* clearfix */
@@ -831,7 +844,7 @@ button.small-long-btn:hover {
 .flow-steps li {
     float: left;
     background: #e4e4e4 url(http://a.tbcdn.cn/sys/common/img/flow_steps_bg.png) no-repeat 100% 0;
-    /*list-style: decimal;*/ /* ie6ï¿½Â²ï¿½ï¿½ï¿½ */
+    /*list-style: decimal;*/ /* ie6ÏÂ²»ÐÐ */
     font-size: 14px;
     font-weight: bold;
     height: 23px;
@@ -897,14 +910,14 @@ button.small-long-btn:hover {
 
 /* pic */
 .pic {
-    *overflow: hidden; /* ieï¿½Â£ï¿½Ä³Ð©ï¿½ß´ï¿½ï¿½ï¿½Í¼Æ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ«ï¿½ï¿½1px */
+    *overflow: hidden; /* ieÏÂ£¬Ä³Ð©³ß´çµÄÍ¼Æ¬»á¾ÓÖÐÊ±»áÏòÏÂÆ«ÒÆ1px */
 }
 .pic a {
     *display: block;
-    *font-family: Arial; /*ï¿½ï¿½Ö¹ï¿½ï¿½utf-8ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½hackÊ§Ð§ï¿½ï¿½ï¿½â£¬ï¿½ï¿½gbkï¿½ï¿½ï¿½ï¿½*/
-    *line-height: 1; /* ï¿½ï¿½ï¿½ï¿½ï¿½Ð¸ßµï¿½ï¿½Â´ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+    *font-family: Arial; /*·ÀÖ¹·Çutf-8ÒýÆðµÄhackÊ§Ð§ÎÊÌâ£¬Èçgbk±àÂë*/
+    *line-height: 1; /* ±ÜÃâÐÐ¸ßµ¼ÖÂ´¹Ö±¾ÓÖÐÓÐÎó */
 }
-/*Ô¼Îªï¿½ß¶Èµï¿½0.873ï¿½ï¿½80*0.873. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/*Ô¼Îª¸ß¶ÈµÄ0.873£¬80*0.873. ²ÉÓÃËÄÉáÎåÈë */
 .s30 a { *font-size: 26px; }
 .s40 a { *font-size: 35px; }
 .s50 a { *font-size: 44px; }
@@ -918,7 +931,7 @@ button.small-long-btn:hover {
 .s310 a { *font-size: 271px; }
 
 /* btn */
-.btn, .small-btn, .long-btn, .short-btn { *display: inline; } /* ï¿½Ã°ï¿½Å¥ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+.btn, .small-btn, .long-btn, .short-btn { *display: inline; } /* ÈÃ°´Å¥³ÉÎªÄÚÁª¿é */
 
 /* msg */
 .msg, .msg24 { *zoom : 1; }
@@ -927,5 +940,5 @@ button.small-long-btn:hover {
 
 
 body {
-    font-family: "å®‹ä½“";
+    font-family: "ËÎÌå";
 }

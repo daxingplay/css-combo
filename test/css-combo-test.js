@@ -1,12 +1,14 @@
 ﻿var CssCombo = require('../lib/index'),
-    path = require('path');
+    path = require('path'),
+    fs = require('fs'),
+    iconv = require('iconv-lite');
 
 CssCombo.build({
     target: path.resolve(__dirname, 'css/test.source.css'),
     debug: true,
-//    inputEncoding: 'gbk',
-//    outputEncoding: 'gbk',
-    output:'css/test.combo.css',
+    inputEncoding: 'gbk',
+    outputEncoding: 'gbk',
+    output:path.resolve(__dirname, 'css/test.combo.css'),
     compress: 0
 }, function(e){
     if(e){

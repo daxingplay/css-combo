@@ -27,6 +27,10 @@ css-combo¾ÍÊÇ½è¼øÁËÕâÖÖË¼Ïë£¬ÊµÏÖÁËcssÄ£¿é»¯¡£¼´ÔÚÈë¿ÚÎÄ¼şÖĞ@importÆäËûÄ£¿é£¬È»º
     * <del>Ôö¼Ó¶ÔÄ£¿é@charsetµÄ¼ì²â</del>
     * <del>±àÂë×ª»»£¬×îºóÑ¹Ëõ³Éascii</del>
 
+## ChangeList
+
+    * 0.2.2£ºĞŞÕı´ò°üÖ®ºóÊä³öÎÄ¼ş±àÂëÎÊÌâ
+
 ## License
 css-combo ×ñÊØ "MIT"£ºhttps://github.com/daxingplay/css-combo/blob/master/LICENSE.md Ğ­Òé
 
