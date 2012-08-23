@@ -1,9 +1,10 @@
+[![build status](https://secure.travis-ci.org/daxingplay/css-combo.png)](http://travis-ci.org/daxingplay/css-combo)
 # css-combo
 
 ## Introduction
 combo css which import other css
-¶ÔÓÚjs£¬Ä¿Ç°ÒÑ¾­ÓÐ±È½Ï³ÉÊìµÄÄ£¿é»¯·½°¸£¬±ÈÈçseajs¡¢kissy£¬µ«ÊÇcss·½ÃæÄØ£¬Ò»°ãÊÇÍ¨¹ýless½øÐÐ±àÒë´ò°üµÄ¡£less¹Ù·½¶ÔÓÚlessÎÄ¼þÖÐµÄ@import "xxx.css"ÊÇ²»»á´ò°ü½øÀ´µÄ£¬ÕâÒ²ÊÇ¿¼ÂÇµ½±¾Éí¾ÍÊÇÓÐÐèÇóÒªÕâÑùÒýÓÃcss£¬¶øÈç¹ûÄã@import "xxx.less"£¬less´ò°ü¹¤¾ß¾Í»á·ÖÎöÕâÐ©ÒýÈëµÄÄ£¿é£¬½øÐÐ´ò°ü¡£
-css-combo¾ÍÊÇ½è¼øÁËÕâÖÖË¼Ïë£¬ÊµÏÖÁËcssÄ£¿é»¯¡£¼´ÔÚÈë¿ÚÎÄ¼þÖÐ@importÆäËûÄ£¿é£¬È»ºó¶ÔÈë¿ÚÎÄ¼þ½øÐÐ´ò°üµÄÊ±ºò£¬¸Ã¹¤¾ß»á·ÖÎöimportµÄÎÄ¼þ£¬°ÑÕâÐ©ÎÄ¼þ´ò°ü½øÀ´¡£
+ï¿½ï¿½ï¿½ï¿½jsï¿½ï¿½Ä¿Ç°ï¿½Ñ¾ï¿½ï¿½Ð±È½Ï³ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½é»¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½seajsï¿½ï¿½kissyï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cssï¿½ï¿½ï¿½ï¿½ï¿½Ø£ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½lessï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½lessï¿½Ù·ï¿½ï¿½ï¿½ï¿½ï¿½lessï¿½Ä¼ï¿½ï¿½Ðµï¿½@import "xxx.css"ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½Ò²ï¿½Ç¿ï¿½ï¿½Çµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cssï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@import "xxx.less"ï¿½ï¿½lessï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¾Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½é£¬ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½
+css-comboï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¼ï¿½ë£¬Êµï¿½ï¿½ï¿½ï¿½cssÄ£ï¿½é»¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½@importï¿½ï¿½ï¿½ï¿½Ä£ï¿½é£¬È»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Ã¹ï¿½ï¿½ß»ï¿½ï¿½ï¿½ï¿½ï¿½importï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 ## Usage
 
@@ -11,26 +12,26 @@ css-combo¾ÍÊÇ½è¼øÁËÕâÖÖË¼Ïë£¬ÊµÏÖÁËcssÄ£¿é»¯¡£¼´ÔÚÈë¿ÚÎÄ¼þÖÐ@importÆäËûÄ£¿é£¬È»º
 
     CssCombo.build(cfg, function(err){ callback(); });
 
-* cfg:{Object} ²ÎÊý
+* cfg:{Object} ï¿½ï¿½ï¿½ï¿½
 
-    * target£º{String} Èë¿ÚÎÄ¼þ
-    * inputEncoding£º{String} ÊäÈëÎÄ¼þ±àÂë£¬¿ÉÑ¡£¬Ä¬ÈÏ¼ì²âÈë¿ÚÎÄ¼þÖÐµÄ@charsetÉèÖÃ¡£Èç¹ûÈë¿ÚÎÄ¼þÃ»ÓÐÉèÖÃ@charset£¬ÄÇÃ´×îºÃÉèÖÃ±¾Ñ¡Ïî
-    * outputEncoding£º{String} Êä³öÎÄ¼þ±àÂë£¬¿ÉÑ¡£¬Ä¬ÈÏUTF-8
-    * output£º{String} Êä³öÄ¿Â¼»òÕßÊä³öµÄÍêÕûÂ·¾¶£¨º¬ÎÄ¼þÃû£¬ÍÆ¼ö£©£¬¿ÉÒÔÊ¹ÓÃÏà¶ÔÂ·¾¶
-    * exclude£º{Array} ºÚÃûµ¥ÕýÔòÊý×é£¬¿ÉÑ¡£¬Ä¬ÈÏ¿Õ
-    * compress: {Boolean} ÊÇ·ñÑ¹Ëõ£¬Ä¬ÈÏÎªtrue£¬´¦Àí¹æÔòÍ¬YUICompressor
-    * debug: {Boolean} ÊÇ·ñ´òÓ¡ÈÕÖ¾
+    * targetï¿½ï¿½{String} ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½
+    * inputEncodingï¿½ï¿½{String} ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ë£¬ï¿½ï¿½Ñ¡ï¿½ï¿½Ä¬ï¿½Ï¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ðµï¿½@charsetï¿½ï¿½ï¿½Ã¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@charsetï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã±ï¿½Ñ¡ï¿½ï¿½
+    * outputEncodingï¿½ï¿½{String} ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ë£¬ï¿½ï¿½Ñ¡ï¿½ï¿½Ä¬ï¿½ï¿½UTF-8
+    * outputï¿½ï¿½{String} ï¿½ï¿½ï¿½ï¿½Ä¿Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½
+    * excludeï¿½ï¿½{Array} ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¬ï¿½ï¿½Ñ¡ï¿½ï¿½Ä¬ï¿½Ï¿ï¿½
+    * compress: {Boolean} ï¿½Ç·ï¿½Ñ¹ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½Îªtrueï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬YUICompressor
+    * debug: {Boolean} ï¿½Ç·ï¿½ï¿½ï¿½Ó¡ï¿½ï¿½Ö¾
 
 ## TODO
 
-    * Ôö¼ÓÄ¿Â¼´ò°üÐÎÊ½
-    * <del>Ôö¼Ó¶ÔÄ£¿é@charsetµÄ¼ì²â</del>
-    * <del>±àÂë×ª»»£¬×îºóÑ¹Ëõ³Éascii</del>
+    * ï¿½ï¿½ï¿½ï¿½Ä¿Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½
+    * <del>ï¿½ï¿½ï¿½Ó¶ï¿½Ä£ï¿½ï¿½@charsetï¿½Ä¼ï¿½ï¿½ï¿½</del>
+    * <del>ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½ï¿½ascii</del>
 
 ## ChangeList
 
-    * 0.2.2£ºÐÞÕý´ò°üÖ®ºóÊä³öÎÄ¼þ±àÂëÎÊÌâ
+    * 0.2.2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 ## License
-css-combo ×ñÊØ "MIT"£ºhttps://github.com/daxingplay/css-combo/blob/master/LICENSE.md Ð­Òé
+css-combo ï¿½ï¿½ï¿½ï¿½ "MIT"ï¿½ï¿½https://github.com/daxingplay/css-combo/blob/master/LICENSE.md Ð­ï¿½ï¿½
 
