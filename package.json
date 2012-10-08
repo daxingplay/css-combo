@@ -20,6 +20,9 @@
         "lib":"./lib/"
     },
     "main":"./lib/index.js",
+    "bin": {
+        "csscombo": "./bin/csscombo"
+    },
     "dependencies":{
         "iconv-lite":">=0.1.0"
     },
