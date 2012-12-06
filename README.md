@@ -7,6 +7,8 @@ combo css which import other css
 对于js，目前已经有比较成熟的模块化方案，比如seajs、kissy，但是css方面呢，一般是通过less进行编译打包的。less官方对于less文件中的@import "xxx.css"是不会打包进来的，这也是考虑到本身就是有需求要这样引用css，而如果你@import "xxx.less"，less打包工具就会分析这些引入的模块，进行打包。
 css-combo就是借鉴了这种思想，实现了css模块化。即在入口文件中@import其他模块，然后对入口文件进行打包的时候，该工具会分析import的文件，把这些文件打包进来。
 
+对于CSS模块化，欢迎大家看我这篇博文：(http://www.techcheng.com/study/css/introduce-css-combo.html)
+
 ## Usage
 
 *API:*
