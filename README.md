@@ -15,26 +15,26 @@ css-combo¾ÍÊÇ½è¼øÁËÕâÖÖË¼Ïë£¬ÊµÏÖÁËcssÄ£¿é»¯¡£¼´ÔÚÈë¿ÚÎÄ¼şÖĞ@importÆäËûÄ£¿é£¬È»º
 
     npm install -g css-combo
 
-*ÃüÁîĞĞÊ¹ÓÃ*
+###ÃüÁîĞĞÊ¹ÓÃ###
 
-    ÃüÁîĞĞÏÂ£¬¿ÉÒÔÏÈ½øÈëĞèÒª´ò°üµÄÎÄ¼şËùÔÚÄ¿Â¼£¬È»ºó
+ÃüÁîĞĞÏÂ£¬¿ÉÒÔÏÈ½øÈëĞèÒª´ò°üµÄÎÄ¼şËùÔÚÄ¿Â¼£¬È»ºó
 
-        csscombo xxx.source.css xxx.combo.css
+    csscombo xxx.source.css xxx.combo.css
 
-    µÚÒ»¸ö²ÎÊıÊÇÔ´ÎÄ¼şÃû£¬µÚ¶ş¸ö²ÎÊıÊÇ´ò°üÖ®ºóµÄÎÄ¼şÃû
+µÚÒ»¸ö²ÎÊıÊÇÔ´ÎÄ¼şÃû£¬µÚ¶ş¸ö²ÎÊıÊÇ´ò°üÖ®ºóµÄÎÄ¼şÃû
 
-    ÆäËûÑ¡ÏîÓĞ£º
+ÆäËûÑ¡ÏîÓĞ£º
 
-        * -s: silent, ¾²Ä¬Ä£Ê½£¬±íÊ¾²»Êä³öÈÎºÎĞÅÏ¢
-        * -ic: inputCharset, ¿ÉÒÔÖ¸¶¨ÊäÈëÎÄ¼şµÄ±àÂë
-        * -oc£º outputCharset, ¿ÉÒÔÖ¸¶¨Êä³öÎÄ¼şµÄ±àÂë
+    * -s: silent, ¾²Ä¬Ä£Ê½£¬±íÊ¾²»Êä³öÈÎºÎĞÅÏ¢
+    * -ic: inputCharset, ¿ÉÒÔÖ¸¶¨ÊäÈëÎÄ¼şµÄ±àÂë
+    * -oc£º outputCharset, ¿ÉÒÔÖ¸¶¨Êä³öÎÄ¼şµÄ±àÂë
 
-*API:*
+### ÔÚNodeJSÀïÃæÊ¹ÓÃ ###
 
-    ÄãÒ²¿ÉÒÔÔÚ×Ô¼ºµÄ´ò°ü¹¤¾ßÖĞµ÷ÓÃcss combo£¬ºÍÆäËûnpm°üÒ»Ñù£º
+ÄãÒ²¿ÉÒÔÔÚ×Ô¼ºµÄ´ò°ü¹¤¾ßÖĞµ÷ÓÃcss combo£¬ºÍÆäËûnpm°üÒ»Ñù£º
 
-        var CSSCombo = require('css-combo');
-        CSSCombo.build(cfg, function(err){ callback(); });
+    var CSSCombo = require('css-combo');
+    CSSCombo.build(cfg, function(err){ callback(); });
 
 * cfg ²ÎÊı¿ÉÒÔÅäÖÃÒÔÏÂÑ¡Ïî£º
 
