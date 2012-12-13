@@ -19,7 +19,7 @@ css-combo¾ÍÊÇ½è¼øÁËÕâÖÖË¼Ïë£¬ÊµÏÖÁËcssÄ£¿é»¯¡£¼´ÔÚÈë¿ÚÎÄ¼şÖĞ@importÆäËûÄ£¿é£¬È»º
 
     ÃüÁîĞĞÏÂ£¬¿ÉÒÔÏÈ½øÈëĞèÒª´ò°üµÄÎÄ¼şËùÔÚÄ¿Â¼£¬È»ºó
 
-    csscombo xxx.source.css xxx.combo.css
+        csscombo xxx.source.css xxx.combo.css
 
     µÚÒ»¸ö²ÎÊıÊÇÔ´ÎÄ¼şÃû£¬µÚ¶ş¸ö²ÎÊıÊÇ´ò°üÖ®ºóµÄÎÄ¼şÃû
 
@@ -33,8 +33,8 @@ css-combo¾ÍÊÇ½è¼øÁËÕâÖÖË¼Ïë£¬ÊµÏÖÁËcssÄ£¿é»¯¡£¼´ÔÚÈë¿ÚÎÄ¼şÖĞ@importÆäËûÄ£¿é£¬È»º
 
     ÄãÒ²¿ÉÒÔÔÚ×Ô¼ºµÄ´ò°ü¹¤¾ßÖĞµ÷ÓÃcss combo£¬ºÍÆäËûnpm°üÒ»Ñù£º
 
-    var CSSCombo = require('css-combo');
-    CSSCombo.build(cfg, function(err){ callback(); });
+        var CSSCombo = require('css-combo');
+        CSSCombo.build(cfg, function(err){ callback(); });
 
 * cfg ²ÎÊı¿ÉÒÔÅäÖÃÒÔÏÂÑ¡Ïî£º
 
