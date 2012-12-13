@@ -11,11 +11,32 @@ css-combo¾ÍÊÇ½è¼øÁËÕâÖÖË¼Ïë£¬ÊµÏÖÁËcssÄ£¿é»¯¡£¼´ÔÚÈë¿ÚÎÄ¼şÖĞ@importÆäËûÄ£¿é£¬È»º
 
 ## Usage
 
+Ê×ÏÈĞèÒªnpm°²×°Ò»ÏÂ£º
+
+    npm install -g css-combo
+
+*ÃüÁîĞĞÊ¹ÓÃ*
+
+    ÃüÁîĞĞÏÂ£¬¿ÉÒÔÏÈ½øÈëĞèÒª´ò°üµÄÎÄ¼şËùÔÚÄ¿Â¼£¬È»ºó
+
+    csscombo xxx.source.css xxx.combo.css
+
+    µÚÒ»¸ö²ÎÊıÊÇÔ´ÎÄ¼şÃû£¬µÚ¶ş¸ö²ÎÊıÊÇ´ò°üÖ®ºóµÄÎÄ¼şÃû
+
+    ÆäËûÑ¡ÏîÓĞ£º
+
+        * -s: silent, ¾²Ä¬Ä£Ê½£¬±íÊ¾²»Êä³öÈÎºÎĞÅÏ¢
+        * -ic: inputCharset, ¿ÉÒÔÖ¸¶¨ÊäÈëÎÄ¼şµÄ±àÂë
+        * -oc£º outputCharset, ¿ÉÒÔÖ¸¶¨Êä³öÎÄ¼şµÄ±àÂë
+
 *API:*
 
-    CssCombo.build(cfg, function(err){ callback(); });
+    ÄãÒ²¿ÉÒÔÔÚ×Ô¼ºµÄ´ò°ü¹¤¾ßÖĞµ÷ÓÃcss combo£¬ºÍÆäËûnpm°üÒ»Ñù£º
 
-* cfg:{Object} ²ÎÊı
+    var CSSCombo = require('css-combo');
+    CSSCombo.build(cfg, function(err){ callback(); });
+
+* cfg ²ÎÊı¿ÉÒÔÅäÖÃÒÔÏÂÑ¡Ïî£º
 
     * target£º{String} Èë¿ÚÎÄ¼ş
     * inputEncoding£º{String} ÊäÈëÎÄ¼ş±àÂë£¬¿ÉÑ¡£¬Ä¬ÈÏ¼ì²âÈë¿ÚÎÄ¼şÖĞµÄ@charsetÉèÖÃ¡£Èç¹ûÈë¿ÚÎÄ¼şÃ»ÓĞÉèÖÃ@charset£¬ÄÇÃ´×îºÃÉèÖÃ±¾Ñ¡Ïî
@@ -28,8 +49,6 @@ css-combo¾ÍÊÇ½è¼øÁËÕâÖÖË¼Ïë£¬ÊµÏÖÁËcssÄ£¿é»¯¡£¼´ÔÚÈë¿ÚÎÄ¼şÖĞ@importÆäËûÄ£¿é£¬È»º
 ## TODO
 
     * Ôö¼ÓÄ¿Â¼´ò°üĞÎÊ½
-    * <del>Ôö¼Ó¶ÔÄ£¿é@charsetµÄ¼ì²â</del>
-    * <del>±àÂë×ª»»£¬×îºóÑ¹Ëõ³Éascii</del>
 
 ## ChangeList
 
