@@ -9,6 +9,8 @@
 /*! @author вос╒ */
 @import url("http://assets.taobaocdn.com/tbsp/tbsp.source.css");
 
+@import "./mod/test_rel_src_mod.css";
+
 body {
     font-family: "кнлЕ";
 }
