@@ -23,7 +23,7 @@ CssCombo.build({
         if (report.output !== path.resolve(__dirname, 'css/test.combo.css')) {
             throw new Error('report.output Error');
         }
-        if (report.imports.length !== 5) {
+        if (report.imports.length !== 7) {
             throw new Error('report.imports Error');
         }
     }

@@ -1,0 +1,20 @@
+/**
+  * style For Page
+  */
+@import url("./deep_mod/deep_import.css");
+
+html {
+    background:url(../image/yest1.png) repeat-x;
+}
+
+a {
+    background: url(../image/one-piece1.jpg);
+}
+
+li {
+    list-style: url(../image/yest1.png) none;
+}
+
+body {
+    font-family: "ËÎÌו";
+}

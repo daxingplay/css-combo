@@ -1,0 +1,26 @@
+/**
+  * style For Page
+  */
+
+/*this is deep include */
+@font-face {
+    font-family: BorderWeb;
+    src:url(../../font/uxiconfont.eot);
+}
+@font-face {
+    font-family: Kingston;
+    src:url(../../font/uxiconfont.ttf);
+}
+
+html {
+    background:url(../../image/yest.png) repeat-x;
+}
+
+a {
+    background: url(../../image/one-piece.jpg);
+}
+
+li {
+    list-style: url(../../image/yest.png) none;
+}
+
