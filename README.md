@@ -2,6 +2,8 @@
 
 [![Build Status](https://secure.travis-ci.org/daxingplay/css-combo.png)](http://travis-ci.org/daxingplay/css-combo)
 
+[![NPM version](https://badge.fury.io/js/css-combo.png)](http://badge.fury.io/js/css-combo)
+
 ## Introduction
 combo css which import other css
 对于js，目前已经有比较成熟的模块化方案，比如seajs、kissy，但是css方面呢，一般是通过less进行编译打包的。less官方对于less文件中的@import "xxx.css"是不会打包进来的，这也是考虑到本身就是有需求要这样引用css，而如果你@import "xxx.less"，less打包工具就会分析这些引入的模块，进行打包。
@@ -57,6 +59,7 @@ CSS Combo配套的grunt插件：https://github.com/daxingplay/grunt-css-combo
 ## ChangeList
 
 * 0.2.2：修正打包之后输出文件编码问题
+* 0.2.7：build参数更改，提供更多形式的输入，去掉部分log信息
 
 ## License
 css-combo 遵守 "MIT"：https://github.com/daxingplay/css-combo/blob/master/LICENSE.md 协议

@@ -1,6 +1,6 @@
 {
     "name":"css-combo",
-    "version":"0.2.6",
+    "version":"0.2.7",
     "description":"css module combo tool",
     "author":"daxingplay <daxingplay@gmail.com>",
     "homepage":"",
@@ -24,7 +24,9 @@
         "csscombo": "./bin/csscombo"
     },
     "dependencies":{
-        "iconv-lite":">=0.1.0"
+        "iconv-lite":">=0.1.0",
+        "lodash": "",
+        "async": ""
     },
     "devDependencies": {
         "mocha": "~1.4.1",
