@@ -9,6 +9,7 @@ describe('When build ', function(){
         CssCombo.build({
             target: path.resolve(__dirname, 'css/test.source.css'),
             debug: false,
+            paths: [ path.resolve(__dirname, 'css/external' ) ],
             inputEncoding: 'gbk',
             outputEncoding: 'gbk',
             output:path.resolve(__dirname, 'css/test.combo.css'),
@@ -24,7 +25,7 @@ describe('When build ', function(){
                 if (report.output !== path.resolve(__dirname, 'css/test.combo.css')) {
                     throw new Error('report.output Error');
                 }
-                if (report.imports.length !== 7) {
+                if (report.imports.length !== 8) {
                     throw new Error('report.imports Error');
                 }
             }
