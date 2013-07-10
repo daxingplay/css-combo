@@ -5,6 +5,7 @@
 @import "./mod/mod2.css";
 @import "./mod/mod3.css";
 @import "./mod/mod4.css";
+@import "ext_mod.css";
 /*! this comment needs to be preserved. */
 /*! @author вос╒ */
 @import url("http://assets.taobaocdn.com/tbsp/tbsp.source.css");
