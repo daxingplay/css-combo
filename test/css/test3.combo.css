@@ -1,0 +1,26 @@
+/*
+combined files : 
+
+mod/mod5_data_uri.css
+*/
+
+/**
+ * test3.source.css
+ * @author: daxingplay<daxingplay@gmail.com>
+ * @date: 13-10-26
+ */
+
+
+/**
+ * mod5_data_uri
+ * @author: daxingplay<daxingplay@gmail.com>
+ * @date: 13-10-26
+ */
+
+li {
+    background:
+        url(data:image/gif;base64,R0lGODlhEAAQAMQAAORHHOVSKudfOulrSOp3WOyDZu6QdvCchPGolfO0o/XBs/fNwfjZ0frl3/zy7////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAkAABAALAAAAAAQABAAAAVVICSOZGlCQAosJ6mu7fiyZeKqNKToQGDsM8hBADgUXoGAiqhSvp5QAnQKGIgUhwFUYLCVDFCrKUE1lBavAViFIDlTImbKC5Gm2hB0SlBCBMQiB0UjIQA7)
+        no-repeat
+        left center;
+    padding: 5px 0 5px 25px;
+}

@@ -33,4 +33,31 @@ describe('When build ', function(){
         });
     });
 
+    it('should not replace data uris', function(done){
+        CssCombo.build({
+            target: path.resolve(__dirname, 'css/test3.source.css'),
+            debug: false,
+            inputEncoding: 'utf-8',
+            outputEncoding: 'utf-8',
+            output:path.resolve(__dirname, 'css/test3.combo.css'),
+            compress: 0
+        }, function(e, report){
+            if(e){
+                throw new Error(e);
+            }else{
+                report = report[0];
+                if (report.target !== path.resolve(__dirname, 'css/test3.source.css')) {
+                    throw new Error('report.target Error');
+                }
+                if (report.output !== path.resolve(__dirname, 'css/test3.combo.css')) {
+                    throw new Error('report.output Error');
+                }
+                if (report.imports.length !== 1) {
+                    throw new Error('report.imports Error');
+                }
+            }
+            done();
+        });
+    });
+
 });
