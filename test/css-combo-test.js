@@ -60,4 +60,25 @@ describe('When build ', function(){
         });
     });
 
+    //a2u ZH test
+    it('should replace ZH text to css unicode',function(done){
+        CssCombo.build({
+            target: path.resolve(__dirname, 'css/a2u.source.css'),
+            debug: false,
+            inputEncoding: 'utf-8',
+            outputEncoding: 'utf-8',
+            output:path.resolve(__dirname, 'css/a2u.combo.css'),
+            compress: 0
+        },function(e,report){
+            if(e){
+                throw new Error(e); 
+            }else{
+                report = report[0]; 
+                if(report.content.match(/[\u4E00-\u9FA5\uF900-\uFA2D]/)){
+                    throw new Error('report.content Error'); 
+                }
+            } 
+            done();
+        }); 
+    });
 });
