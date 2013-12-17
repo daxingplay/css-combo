@@ -36,18 +36,20 @@ css-combo就是借鉴了这种思想，实现了css模块化。即在入口文�
 你也可以在自己的打包工具中调用css combo，和其他npm包一样：
 
     var CSSCombo = require('css-combo');
-    CSSCombo.build(cfg, function(err){ callback(); });
+    CSSCombo.build(src, dest, cfg, function(err){ callback(); });
 
+* src 入口文件的地址
+* dest 输出目录或者输出的完整路径（含文件名，推荐），可以使用相对路径
 * cfg 参数可以配置以下选项：
 
-    * target：{String} 入口文件
     * inputEncoding：{String} 输入文件编码，可选，默认检测入口文件中的@charset设置。如果入口文件没有设置@charset，那么最好设置本选项
     * outputEncoding：{String} 输出文件编码，可选，默认UTF-8
-    * output：{String} 输出目录或者输出的完整路径（含文件名，推荐），可以使用相对路径
     * exclude：{Array} 黑名单正则数组，可选，默认空
     * compress: {Boolean} 是否压缩，默认为true，处理规则同YUICompressor
     * debug: {Boolean} 是否打印日志
     * paths: {Array} `@import`额外查找的路径。
+    * native2ascii: {Boolean} 是否替换中文为Unicode字符，默认为true
+    * replaceFont: {Boolean} 是否把中文的字体名称替换成英文名称，默认为true，此选项依赖上面的选项，即必须native2ascii配置为true才有效。强烈建议各位开发者在书写CSS的时候就使用英文名称，比如微软雅黑，写成'Microsoft YaHei'
 
 ### 在grunt中使用 ###
 
@@ -59,6 +61,7 @@ CSS Combo配套的grunt插件：https://github.com/daxingplay/grunt-css-combo
 
 ## ChangeList
 
+* 0.3.3：增加替换中文的字体名称为英文名称的方法
 * 0.2.2：修正打包之后输出文件编码问题
 * 0.2.7：build参数更改，提供更多形式的输入，去掉部分log信息
 
