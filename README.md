@@ -61,6 +61,7 @@ CSS Combo配套的grunt插件：https://github.com/daxingplay/grunt-css-combo
 
 ## ChangeList
 
+* 0.3.4：修复issue 22
 * 0.3.3：增加替换中文的字体名称为英文名称的方法
 * 0.2.2：修正打包之后输出文件编码问题
 * 0.2.7：build参数更改，提供更多形式的输入，去掉部分log信息
