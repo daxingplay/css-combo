@@ -82,3 +82,11 @@ describe('When build ', function(){
         }); 
     });
 });
+
+describe('When compress,', function(){
+    var compressor = require('../lib/cssmin').compressor;
+    it('should preserve pseudo-class colons', function(){
+        var text = 'a :nth-child(2), a :nth-child(5), a :nth-child(9) {display: none;}';
+        compressor.cssmin(text).should.equal('a :nth-child(2),a :nth-child(5),a :nth-child(9){display:none}');
+    });
+});
