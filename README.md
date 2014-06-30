@@ -61,6 +61,7 @@ CSS Combo配套的grunt插件：https://github.com/daxingplay/grunt-css-combo
 
 ## ChangeList
 
+* 0.3.6：修复单个src配置多个font路径的问题，修复font里面含有?的问题
 * 0.3.5：修复issue #26
 * 0.3.4：修复issue #22
 * 0.3.3：增加替换中文的字体名称为英文名称的方法
