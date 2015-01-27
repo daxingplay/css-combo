@@ -1,7 +1,61 @@
 ﻿var CssCombo = require('../lib/index'),
+    ComboCore = require('../lib/combo'),
     path = require('path'),
     fs = require('fs'),
     should = require('should');
+
+describe('When extract imports ', function(){
+
+    var extract = function(content){
+        var result = ComboCore.prototype.extractImports(content);
+        return result ? result.filePath : null;
+    };
+
+    it('should support tengine combo url format.', function(){
+        extract('@import url(http://g.tbcdn.cn/??mui/global/1.2.42/global.css);').should.equal('http://g.tbcdn.cn/??mui/global/1.2.42/global.css');
+    });
+
+    it('should support remote url.', function(){
+        extract('@import url(http://g.tbcdn.cn/mui/global/1.2.42/global.css);').should.equal('http://g.tbcdn.cn/mui/global/1.2.42/global.css');
+    });
+
+    it('should support remote url with params.', function(){
+        extract('@import url(http://g.tbcdn.cn/mui/global/1.2.42/global.css?test=123);').should.equal('http://g.tbcdn.cn/mui/global/1.2.42/global.css');
+    });
+
+    it('should support local path.', function(){
+        extract('@import url(test/123.css);').should.equal('test/123.css');
+    });
+
+    it('should support path with "".', function(){
+        extract('@import url("test/123.css");').should.equal('test/123.css');
+        extract('@import url("http://test.com/123.css");').should.equal('http://test.com/123.css');
+    });
+
+    it('should support path without url function.', function(){
+        extract('@import "test/123.css";').should.equal('test/123.css');
+        extract('@import "http://test.com/123.css";').should.equal('http://test.com/123.css');
+    });
+
+    it('should support simple http url.', function(){
+        extract('@import "//test.com/123.css";').should.equal('//test.com/123.css');
+    });
+
+    it('should support custom protocols.', function(){
+        extract('@import url("chrome://communicator/skin.css");').should.equal('chrome://communicator/skin.css');
+    });
+
+    it('should support https url.', function(){
+        extract('@import "https://test.com/123.css";').should.equal('https://test.com/123.css');
+    });
+
+    it('should support list-of-media-queries.', function(){
+        extract('@import url("fineprint.css") print;').should.equal('fineprint.css');
+        extract('@import url("bluish.css") projection, tv;').should.equal('bluish.css');
+        extract('@import url("landscape.css") screen and (orientation:landscape);').should.equal('landscape.css');
+    });
+
+});
 
 describe('When build ', function(){
 
