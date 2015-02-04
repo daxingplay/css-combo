@@ -24,9 +24,9 @@
     "csscombo": "./bin/csscombo"
   },
   "dependencies": {
-    "async": "",
+    "async": "^0.9.0",
     "iconv-lite": ">=0.1.0",
-    "lodash": "",
+    "lodash": "^3.1.0",
     "request": "^2.53.0"
   },
   "devDependencies": {
