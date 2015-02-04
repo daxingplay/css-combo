@@ -13,6 +13,7 @@ describe('When extract imports ', function(){
 
     it('should support tengine combo url format.', function(){
         extract('@import url(http://g.tbcdn.cn/??mui/global/1.2.42/global.css);').should.equal('http://g.tbcdn.cn/??mui/global/1.2.42/global.css');
+        extract('@import url("http://g.tbcdn.cn/??mui/global/1.2.42/global.css");').should.equal('http://g.tbcdn.cn/??mui/global/1.2.42/global.css');
     });
 
     it('should support remote url.', function(){
