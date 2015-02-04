@@ -1,48 +1,49 @@
 {
-    "name":"css-combo",
-    "version":"0.3.7",
-    "description":"css module combo tool",
-    "author":"daxingplay <daxingplay@gmail.com>",
-    "homepage":"",
-    "keywords":[
-        "css",
-        "build",
-        "combo"
-    ],
-    "bugs":{
-        "url":"https://github.com/daxingplay/css-combo/issues"
-    },
-    "contributors":[],
-    "engines":{
-        "node":">=0.8.1"
-    },
-    "directories":{
-        "lib":"./lib/"
-    },
-    "main":"./lib/index.js",
-    "bin": {
-        "csscombo": "./bin/csscombo"
-    },
-    "dependencies":{
-        "iconv-lite":">=0.1.0",
-        "lodash": "",
-        "async": ""
-    },
-    "devDependencies": {
-        "mocha": "~1.4.1",
-        "should": "~0.6.3"
-    },
-    "scripts": {
-        "test": "mocha -t 20000"
-    },
-    "licenses":[
-        {
-            "type":"MIT",
-            "url":"https://github.com/daxingplay/css-combo/blob/master/LICENSE.md"
-        }
-    ],
-    "repository":{
-        "type":"git",
-        "url":"git://github.com/daxingplay/css-combo.git"
+  "name": "css-combo",
+  "version": "0.3.7",
+  "description": "css module combo tool",
+  "author": "daxingplay <daxingplay@gmail.com>",
+  "homepage": "",
+  "keywords": [
+    "css",
+    "build",
+    "combo"
+  ],
+  "bugs": {
+    "url": "https://github.com/daxingplay/css-combo/issues"
+  },
+  "contributors": [],
+  "engines": {
+    "node": ">=0.8.1"
+  },
+  "directories": {
+    "lib": "./lib/"
+  },
+  "main": "./lib/index.js",
+  "bin": {
+    "csscombo": "./bin/csscombo"
+  },
+  "dependencies": {
+    "async": "",
+    "iconv-lite": ">=0.1.0",
+    "lodash": "",
+    "request": "^2.53.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.4.1",
+    "should": "~0.6.3"
+  },
+  "scripts": {
+    "test": "mocha -t 20000"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/daxingplay/css-combo/blob/master/LICENSE.md"
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daxingplay/css-combo.git"
+  }
 }
