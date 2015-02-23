@@ -67,7 +67,6 @@ describe('When analyze', function(){
             paths: [ path.resolve(__dirname, 'css/external' ) ],
             inputEncoding: 'gbk',
             outputEncoding: 'gbk',
-            output:path.resolve(__dirname, 'css/test.combo.css'),
             compress: 0
         }, function(e, report){
             report[0].imports.length.should.equal(8);
