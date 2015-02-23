@@ -58,6 +58,25 @@ describe('When extract imports ', function(){
 
 });
 
+describe('When analyze', function(){
+
+    it('should get results', function(done){
+        CssCombo.analyze({
+            target: path.resolve(__dirname, 'css/test.source.css'),
+            debug: false,
+            paths: [ path.resolve(__dirname, 'css/external' ) ],
+            inputEncoding: 'gbk',
+            outputEncoding: 'gbk',
+            output:path.resolve(__dirname, 'css/test.combo.css'),
+            compress: 0
+        }, function(e, report){
+            report[0].imports.length.should.equal(8);
+            done();
+        });
+    });
+
+});
+
 describe('When build ', function(){
 
     it('should have no errors.', function(done){
