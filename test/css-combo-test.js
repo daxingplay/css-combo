@@ -76,6 +76,18 @@ describe('When analyze', function(){
 
 });
 
+describe('When remove charset', function() {
+    it('should get proper result', function() {
+        var removeCharset = ComboCore.prototype.removeCharset;
+
+        removeCharset('@charset "utf-8";samp{font-family:"monospace";font-size:.1rem}').should.equal('samp{font-family:"monospace";font-size:.1rem}');
+        removeCharset("@charset 'utf-8'; div { width: 0; }").should.equal(' div { width: 0; }');
+        removeCharset("@charset  'gbk'; div { width: 0; }").should.equal(' div { width: 0; }');
+        removeCharset("@charset 'gb2312' ; div { width: 0; }").should.equal(' div { width: 0; }');
+        removeCharset("@charset 'utf-8';").should.equal('');
+    });
+});
+
 describe('When build ', function(){
 
     it('should have no errors.', function(done){
