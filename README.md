@@ -1,6 +1,5 @@
 # css-combo
 
-# forked from daxingplay/css-combo
 
 [![Build Status](https://secure.travis-ci.org/daxingplay/css-combo.png)](http://travis-ci.org/daxingplay/css-combo)
 
