@@ -1,5 +1,6 @@
 # css-combo
 
+
 [![Build Status](https://secure.travis-ci.org/daxingplay/css-combo.png)](http://travis-ci.org/daxingplay/css-combo)
 
 [![NPM version](https://badge.fury.io/js/css-combo.png)](http://badge.fury.io/js/css-combo)
@@ -61,6 +62,7 @@ CSS Combo配套的grunt插件：https://github.com/daxingplay/grunt-css-combo
 
 ## ChangeList
 
+* 0.6.0：支持webp类型的图片格式
 * 0.3.7：修复无法解析CDN Combo类型的URL的问题
 * 0.3.6：修复单个src配置多个font路径的问题，修复font里面含有?的问题
 * 0.3.5：修复issue #26
